@@ -12,8 +12,8 @@ namespace Tyuiu.IvanovPG.Sprint2.Task2.V11.Test
         {
             DataService ds = new DataService();
 
-            int x = 3;
-            int y = 3;
+            int x = 12;
+            int y = 11;
 
             bool res = ds.CheckDotInShadedArea(x, y);
             bool wait = true;
