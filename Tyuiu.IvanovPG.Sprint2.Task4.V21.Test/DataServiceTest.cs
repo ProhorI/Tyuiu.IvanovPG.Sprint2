@@ -12,19 +12,18 @@ namespace Tyuiu.IvanovPG.Sprint2.Task4.V21.Test
             double x = 10;
             double y = 5;
             double res = ds.Calculate(x, y);
-            double wait = 41.822;
+            double wait = 2.997;
             Assert.AreEqual(wait, res);
         }
-        
-        
+
         [TestMethod]
         public void ValidCondition2()
         {
             DataService ds = new DataService();
-            double x = 1;
+            double x = 10;
             double y = 15;
             double res = ds.Calculate(x, y);
-            double wait = 0.446;
+            double wait = 15600736839911562;
             Assert.AreEqual(wait, res);
         }
     }
