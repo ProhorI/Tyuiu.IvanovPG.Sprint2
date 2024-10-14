@@ -12,8 +12,12 @@ namespace Tyuiu.IvanovPG.Sprint2.Task5.V15.Lib
         public string FindDayName(int k)
         {
             string res;
-            switch (k)
+            res = "";
+            switch (k % 7)
             {
+                case 0:
+                    res = "Воскресенье";
+                    break;
                 case 1:
                     res = "Понедельник";
                     break;
@@ -32,11 +36,6 @@ namespace Tyuiu.IvanovPG.Sprint2.Task5.V15.Lib
                 case 6:
                     res = "Суббота";
                     break;
-                case 7:
-                    res = "Воскресенье";
-                    break;
-                default:
-                    throw new ArgumentException($"День должен быть от 1 до 7. Значение {k}");
             }
             return res;
         }
@@ -87,3 +86,9 @@ namespace Tyuiu.IvanovPG.Sprint2.Task5.V15.Lib
 //        throw new ArgumentException($"Месяц должен быть от 1 до 12. Значение {value}");
 //}
 //return res;
+
+//case 7:
+//    res = "Воскресенье";
+//    break;
+//default:
+//    throw new ArgumentException($"День должен быть от 1 до 7. Значение {k}");
