@@ -9,10 +9,10 @@ namespace Tyuiu.IvanovPG.Sprint2.Task4.V21.Test
         public void ValidCondition1()
         {
             DataService ds = new DataService();
-            double x = 5;
-            double y = 5;
+            double x = 1;
+            double y = 4;
             double res = ds.Calculate(x, y);
-            double wait = 0.97;
+            double wait = 256;
             Assert.AreEqual(wait, res);
         }
 
@@ -20,10 +20,10 @@ namespace Tyuiu.IvanovPG.Sprint2.Task4.V21.Test
         public void ValidCondition2()
         {
             DataService ds = new DataService();
-            double x = 10;
-            double y = 15;
+            double x = 1;
+            double y = 2;
             double res = ds.Calculate(x, y);
-            double wait = 73153.79;
+            double wait = 0.726;
             Assert.AreEqual(wait, res);
         }
     }
