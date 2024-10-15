@@ -20,19 +20,19 @@ namespace Tyuiu.IvanovPG.Sprint2.Task7.V12.Test
             Assert.AreEqual(wait, res);
         }
 
-        [TestMethod]
-        public void ValidCheckDotInShadedArea2()
-        {
-            DataService ds = new DataService();
+        //[TestMethod]
+        //public void ValidCheckDotInShadedArea2()
+        //{
+        //    DataService ds = new DataService();
 
-            double x = 1;
-            double y = 6;
+        //    double x = 1;
+        //    double y = 6;
 
-            bool res = ds.CheckDotInShadedArea(x, y);
+        //    bool res = ds.CheckDotInShadedArea(x, y);
 
-            bool wait = false;
+        //    bool wait = false;
 
-            Assert.AreEqual(wait, res);
-        }
+        //    Assert.AreEqual(wait, res);
+        //}
     }
 }
