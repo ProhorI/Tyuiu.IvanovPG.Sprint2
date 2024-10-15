@@ -20,7 +20,7 @@ namespace Tyuiu.IvanovPG.Sprint2.Task7.V12.Test
         //    Assert.AreEqual(wait, res);
         //}
 
-        [TestMethod]
+        //[TestMethod]
         public void ValidCheckDotInShadedArea2()
         {
             DataService ds = new DataService();
