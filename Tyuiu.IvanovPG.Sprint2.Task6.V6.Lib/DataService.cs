@@ -18,7 +18,7 @@ namespace Tyuiu.IvanovPG.Sprint2.Task6.V6.Lib
                         case 9: return "Девятка пик";
                         case 10: return "Десятка пик";
                         case 11: return "Валет пик";
-                        case 12: return "Дама пик";
+                        case 12: return "дама пик";
                         case 13: return "Король пик";
                         case 14: return "Туз пик";
                     }
@@ -33,7 +33,7 @@ namespace Tyuiu.IvanovPG.Sprint2.Task6.V6.Lib
                         case 9: return "Девятка треф";
                         case 10: return "Десятка треф";
                         case 11: return "Валет треф";
-                        case 12: return "Дама треф";
+                        case 12: return "дама треф";
                         case 13: return "Король треф";
                         case 14: return "Туз треф";
                     }
@@ -48,7 +48,7 @@ namespace Tyuiu.IvanovPG.Sprint2.Task6.V6.Lib
                         case 9: return "Девятка бубен";
                         case 10: return "Десятка бубен";
                         case 11: return "Валет бубен";
-                        case 12: return "Дама бубен";
+                        case 12: return "дама бубен";
                         case 13: return "Король бубен";
                         case 14: return "Туз бубен";
                     }
@@ -63,7 +63,7 @@ namespace Tyuiu.IvanovPG.Sprint2.Task6.V6.Lib
                         case 9: return "Девятка черви";
                         case 10: return "Десятка черви";
                         case 11: return "Валет черви";
-                        case 12: return "Дама черви";
+                        case 12: return "дама черви";
                         case 13: return "Король черви";
                         case 14: return "Туз черви";
                     }
