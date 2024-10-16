@@ -10,7 +10,7 @@ namespace Tyuiu.IvanovPG.Sprint2.Task7.V12.Lib
             //bool z = (y <= Math.Pow(x, 2)) && (y >= 2 - x);
             //bool t = (x <= -2 && x >= 0 && x <= 2 && y >= 0 && y <= 2 && y >= 4);
             //bool t = (y >= 0) && y >= Math.Pow(x, 2) && (y <= 2 - x);
-            if (y <= Math.Pow(x, 2) && x <= x - 2 && x >= 0 && x <= 1 && y >= 0 && y >= 4)
+            if (y <= Math.Pow(x, 2) && x >= 0 && x <= 1 && y >= 0 && y >= 4)
             {
                 res = true;
             }
