@@ -25,12 +25,14 @@ namespace Tyuiu.IvanovPG.Sprint2.Task7.V12
             Console.WriteLine("* ИСХОДНЫЕ ДАННЫЕ:                                                        *");
             Console.WriteLine("***************************************************************************");
 
-            Console.WriteLine("Введите X: ");
+            Console.WriteLine("Введите значение X: ");
             double x = Convert.ToDouble(Console.ReadLine());
-            Console.WriteLine("Введите Y: ");
+
+            Console.WriteLine("Введите значение Y: ");
             double y = Convert.ToDouble(Console.ReadLine());
 
             bool res = ds.CheckDotInShadedArea(x, y);
+
 
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* РЕЗУЛЬТАТ:                                                              *");
@@ -38,14 +40,14 @@ namespace Tyuiu.IvanovPG.Sprint2.Task7.V12
 
             if (res)
             {
-                Console.WriteLine("Точка находиться в заштрихованной области");
+                Console.WriteLine("Точка находится в заштрихованной области");
             }
             else
             {
-                Console.WriteLine("Точка не находиться в заштрихованной области");
-            }
+                Console.WriteLine("Точка не находится в заштрихованной области");
 
-            Console.ReadKey();
+            }
+            Console.ReadLine();
         }
     }
 }

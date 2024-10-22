@@ -1,6 +1,6 @@
-using Tyuiu.IvanovPG.Sprint2.Task7.V12.Lib;
+using dz.Lib;
 
-namespace Tyuiu.IvanovPG.Sprint2.Task7.V12.Test
+namespace dz.Test
 {
     [TestClass]
     public class DataServiceTest
@@ -9,8 +9,9 @@ namespace Tyuiu.IvanovPG.Sprint2.Task7.V12.Test
         public void ValidCheckDotInShadedArea()
         {
             DataService ds = new DataService();
-            double x = 1;
-            double y = 0.5;
+
+            double x = -0.5;
+            double y = 0.0;
 
             bool res = ds.CheckDotInShadedArea(x, y);
 
